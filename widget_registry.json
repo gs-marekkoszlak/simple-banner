@@ -4,7 +4,7 @@
       "title": "Demo widget",
       "description": "Demo widget for presentation purposes",
       "version": "1.0.0",
-      "category": "Demo",
+      "category": "Demo with Adam",
       "type": "demo_widget",
       "imageName": "demo_widget",
       "content": {
@@ -29,7 +29,7 @@
       "title": "Hello World Widget",
       "description": "A simple React widget displaying Hello World with custom styling",
       "version": "1.0.0",
-      "category": "Demo",
+      "category": "Demo with Adam",
       "type": "react_hello_world",
       "imageName": "react_hello_world",
       "content": {
