@@ -48,6 +48,52 @@
         "removable": true,
         "shared": false,
         "movable": false
+      },
+      "configuration": {
+        "properties": [
+          {
+            "name": "banner_title",
+            "type": "text",
+            "label": "Title",
+            "defaultValue": "Welcome to Our Platform",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "banner_description",
+            "type": "text",
+            "label": "Description",
+            "defaultValue": "Discover amazing features and start your journey today. Join thousands of satisfied users.",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "cta_text",
+            "type": "text",
+            "label": "CTA Button Text",
+            "defaultValue": "Get Started",
+            "rules": {
+              "required": true
+            }
+          },
+          {
+            "name": "cta_url",
+            "type": "text",
+            "label": "CTA Button URL",
+            "defaultValue": "#",
+            "rules": {
+              "required": true
+            }
+          }
+        ]
+      },
+      "defaultConfig": {
+        "banner_title": "Welcome to Our Platform",
+        "banner_description": "Discover amazing features and start your journey today. Join thousands of satisfied users.",
+        "cta_text": "Get Started",
+        "cta_url": "#"
       }
     },
     {
