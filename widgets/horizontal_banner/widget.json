@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "title": "Horizontal Banner",
+  "description": "A minimalistic horizontal banner with title, description, and call-to-action button",
+  "category": "Banner",
+  "imageName": "horizontal_banner"
+}
+

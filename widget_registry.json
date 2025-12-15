@@ -4,7 +4,7 @@
       "title": "Demo widget",
       "description": "Demo widget for presentation purposes",
       "version": "1.0.0",
-      "category": "Demo with Adam",
+      "category": "Demo",
       "type": "demo_widget",
       "imageName": "demo_widget",
       "content": {
@@ -26,10 +26,35 @@
       }
     },
     {
+      "title": "Horizontal Banner",
+      "description": "A minimalistic horizontal banner with title, description, and call-to-action button",
+      "version": "1.0.0",
+      "category": "Banner",
+      "type": "horizontal_banner",
+      "imageName": "horizontal_banner",
+      "content": {
+        "endpoint": "./widgets/horizontal_banner/content.html",
+        "method": "GET",
+        "requiresAuthentication": false,
+        "cacheStrategy": "no-cache"
+      },
+      "containers": [
+        "Full width"
+      ],
+      "widgetsLibrary": true,
+      "settings": {
+        "configurable": true,
+        "editable": true,
+        "removable": true,
+        "shared": false,
+        "movable": false
+      }
+    },
+    {
       "title": "Hello World Widget",
       "description": "A simple React widget displaying Hello World with custom styling",
       "version": "1.0.0",
-      "category": "Demo with Adam",
+      "category": "Demo",
       "type": "react_hello_world",
       "imageName": "react_hello_world",
       "content": {
