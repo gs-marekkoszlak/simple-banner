@@ -41,6 +41,51 @@
         "rules": {
           "required": true
         }
+      },
+      {
+        "name": "background_color_start",
+        "type": "color",
+        "label": "Background Gradient Start Color",
+        "defaultValue": "#667eea",
+        "rules": {
+          "required": true
+        }
+      },
+      {
+        "name": "background_color_end",
+        "type": "color",
+        "label": "Background Gradient End Color",
+        "defaultValue": "#764ba2",
+        "rules": {
+          "required": true
+        }
+      },
+      {
+        "name": "text_color",
+        "type": "color",
+        "label": "Text Color",
+        "defaultValue": "#ffffff",
+        "rules": {
+          "required": true
+        }
+      },
+      {
+        "name": "button_bg_color",
+        "type": "color",
+        "label": "Button Background Color",
+        "defaultValue": "#ffffff",
+        "rules": {
+          "required": true
+        }
+      },
+      {
+        "name": "button_text_color",
+        "type": "color",
+        "label": "Button Text Color",
+        "defaultValue": "#667eea",
+        "rules": {
+          "required": true
+        }
       }
     ]
   },
@@ -48,7 +93,12 @@
     "banner_title": "Welcome to Our Platform",
     "banner_description": "Discover amazing features and start your journey today. Join thousands of satisfied users.",
     "cta_text": "Get Started",
-    "cta_url": "#"
+    "cta_url": "#",
+    "background_color_start": "#667eea",
+    "background_color_end": "#764ba2",
+    "text_color": "#ffffff",
+    "button_bg_color": "#ffffff",
+    "button_text_color": "#667eea"
   }
 }
 

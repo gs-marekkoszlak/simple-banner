@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 32px 48px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, {{ background_color_start }} 0%, {{ background_color_end }} 100%);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
@@ -15,7 +15,7 @@
 
   .horizontal-banner-content {
     flex: 1;
-    color: #ffffff;
+    color: {{ text_color }};
   }
 
   .horizontal-banner-title {
@@ -41,8 +41,8 @@
   .horizontal-banner-button {
     display: inline-block;
     padding: 14px 32px;
-    background-color: #ffffff;
-    color: #667eea;
+    background-color: {{ button_bg_color }};
+    color: {{ button_text_color }};
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -56,7 +56,7 @@
   .horizontal-banner-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    background-color: #f8f9fa;
+    opacity: 0.95;
   }
 
   .horizontal-banner-button:active {
